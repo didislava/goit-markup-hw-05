@@ -633,7 +633,10 @@ h6 {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.modal-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -642,6 +645,7 @@ h6 {
     fill: #FFFFFF;
     stroke: #FFFFFF;
     background-color: #404bbf;
+    border: none;
 }
 
 .modal-slogan {
@@ -723,7 +727,7 @@ h6 {
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    outline: transparent;
 }
 
 .review-form-comment::placeholder {
