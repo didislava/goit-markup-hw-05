@@ -516,59 +516,49 @@ h6 {
     background-color: #31d0aa;
 }
 
+.subscribe-container {
+    margin-top: 40px;
+}
 
-.footer-registration{
-    padding-left: 80px;
+.subscribe-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
+.form-label {
     display: flex;
 }
 
-.footer-registration-label{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
-}
-
-.footer-textarea{
-    resize: none;
-    border: 1px solid #fff;
-    border-radius: 4px;
+.input-email {
     width: 264px;
     height: 40px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 200%;
-    letter-spacing: 0.04em;
-    color: #fff;
-    padding: 8px 16px;
+    border: 1px solid #ffffff;
     background-color: transparent;
-
-}
-
-.footer-textarea::placeholder {
-    color: #fff;
-}
-
-.footer-btn{
-    position: inline;
-    justify-content: center;
-    align-items: center;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    width: 165px;
-    height: 40px;
-    background: #4d5ae5;
-    color: white;
-    border: none;
-    margin-left: 95px;
-
+    color: #ffffff;
 }
 
-.footer-btn-icon {
-    justify-content: center;
-    align-items: center;
+.input-email::placeholder {
+    color: #ffffff;
+}
+
+.subscribe-button {
+    min-width: 165px;
+    height: 40
 }
 
  .modal-backdrop {
