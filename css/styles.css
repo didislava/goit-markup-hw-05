@@ -312,7 +312,7 @@ h6 {
 }
 
 .team-item-text {
-
+    margin-bottom: 8px;
 }
 
 .team-image {
@@ -341,7 +341,6 @@ h6 {
     border-radius: 50%;
     background-color: #4D5AE5;
     color: white;
-    margin-top: 8px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -350,7 +349,6 @@ h6 {
 .social-list-item {
     width: 40px;
     height: 40px;
-    margin-top: 8px;
 }
 
 .social-list-link:hover,
