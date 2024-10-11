@@ -516,7 +516,6 @@ h6 {
 }
 
 .subscribe-container {
-    margin-top: 40px;
 }
 
 .subscribe-text {
@@ -571,6 +570,12 @@ h6 {
     border-radius: 4px;
     min-width: 165px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+    background-color: #404bbf;
 }
 
 .subscribe-icon {
@@ -602,9 +607,6 @@ h6 {
 .modal {
     position: absolute;
     width: 408px;
-    height: 80%;
-    max-height: 584px;
-    overflow: auto;
     background-color: #FCFCFC;
     border-radius: 4px;
     padding: 72px 24px 24px 24px;
@@ -803,4 +805,9 @@ h6 {
     line-height: 1.5;
     letter-spacing: 0.04em;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.review-form-submit-btn:hover,
+.review-form-submit-btn:focus {
+    background-color: #404bbf;
 }
